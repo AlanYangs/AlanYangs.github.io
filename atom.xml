@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Alan Yang's Website]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://alanyang.com/"/>
+  <updated>2015-09-25T07:35:17.780Z</updated>
+  <id>http://alanyang.com/</id>
+  
+  <author>
+    <name><![CDATA[Alan Yang]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Yang & Qu 's wedding invitation]]></title>
+    <link href="http://alanyang.com/2015/09/25/invitation/"/>
+    <id>http://alanyang.com/2015/09/25/invitation/</id>
+    <published>2015-09-25T07:35:17.780Z</published>
+    <updated>2015-09-25T07:35:17.780Z</updated>
+    <content type="html"><![CDATA[<p><img src="love.jpg" style="display: block ;margin: auto;box-shadow: 0 0 2px 3px #ddd;"></p>
+<h2 id="时间:_2016-01-01">时间: <code>2016-01-01</code></h2><p>2016年1月1日元旦</p>
+<h2 id="地点:_湖南省衡阳市">地点: 湖南省<code>衡阳市</code></h2><p>乘车路线：XXX路</p>
+<h2 id="联系方式:_15819805018">联系方式: <code>15819805018</code></h2><p>微信同上</p>
+<h2 id="照片墙：">照片墙：</h2><p>由于照片较多，需加载2-3分钟，请耐心等待…</p>
+<div><iframe src="images_3D/main.htm" height="800px" width="100%" frameborder="0" scrolling="no"></iframe></div>]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="love.jpg" style="display: block ;margin: auto;box-shadow: 0 0 2px 3px #ddd;"></p>
+<h2 id="时间:_2016-01-01">时间: <code>2016-01-01<]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
