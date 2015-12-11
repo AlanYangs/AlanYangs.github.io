@@ -1,0 +1,112 @@
+/*基本信息*/
+html,body {
+	overflow: -Scroll;overflow-y: hidden; /*隐藏垂直滚动条*/
+	font-family: "Microsoft YaHei", Verdana, sans-serif, "SimSun";
+	font-size: 14px;
+	text-align: center;
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+p {
+	display: inline; 
+	line-height: 6px;
+}
+/*页面层根容器*/
+.pageRoot {
+	width: 100%;
+	height: 100%;
+}
+	/*页面头部*/
+	.header {
+		width: 100%;
+		height: 4%;
+		background: #DFDFDF; 
+		border-bottom: 2 solid #B1B1B1; 
+		border-bottom-style: ridge;
+	}
+		/*链接的样式*/
+		a:link,a:visited {
+			
+			font-size: 18px;
+			text-decoration: none;
+			color: #FFFFFF;
+			text-align: center;
+			font-weight: 400;
+			font-style: normal;	
+		}
+		a:hover{}
+
+		/*导航菜单*/
+		.nav {margin: 0 auto;width: 40%;height: 4%; display: block;padding-top: 6px;}
+		.nav ul {dispaly: inline-block;list-style: none;margin: 2px;}
+		.nav li {dispaly: inline-block;float: left;margin-left: 20px;margin-right: 20px;}
+		.nav ul li a:hover{}
+
+		#active {
+			color: #666666;
+		}
+	.panel {
+		position: relative;
+		background: #FFFFFF;
+		width: 100%;
+		height:14%;
+		border-bottom: 2 solid #B1B1B1; 
+		border-bottom-style: ridge;
+	}	
+		.table { 
+			position: absolute;
+			left: 13%;
+			bottom: 2%;
+			width: 75%;
+			height: auto;
+			border-top: 1px solid #CCCCCC;  
+			border-right: 1px solid #CCCCCC; 
+			border-collapse: collapse;
+			margin-top: 1%;
+			text-align: center; 
+		}
+
+		.table td {
+			padding-left: 1%;
+			padding-right: 1%;
+			width: 80px;
+		}
+
+	.MainBody {
+		position: relative;
+		background: #DCDCDC;
+		width: 100%;
+		height:78%;
+	}
+		.LeftSider{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 10%;
+			height: 100%;
+			float: left;			
+			background: #FFFFFF;
+			border-right: 2 solid #B1B1B1; 
+			border-right-style: groove;
+		}
+		
+		.img {
+			align: center;
+			padding:2px;
+		}
+		
+		.inputText{
+			width:100%; 
+			height:24px;
+		}
+	.footer {
+		width: 100%;
+		height: 4%;
+		margin: 0 auto;
+		border-top: 1px solid #CCCCCC;  
+		background: #FFFFFF;
+	}
