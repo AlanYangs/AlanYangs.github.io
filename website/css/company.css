@@ -1,6 +1,6 @@
-/*åŸºæœ¬ä¿¡æ¯*/
+/*»ù±¾ĞÅÏ¢*/
 html,body {
-	overflow: -Scroll;overflow-y: hidden; /*éšè—å‚ç›´æ»šåŠ¨æ¡*/
+	overflow: -Scroll;overflow-y: hidden; /*Òş²Ø´¹Ö±¹ö¶¯Ìõ*/
 	font-family: "Microsoft YaHei", Verdana, sans-serif, "SimSun";
 	font-size: 14px;
 	text-align: center;
@@ -15,12 +15,12 @@ p {
 	display: inline; 
 	line-height: 6px;
 }
-/*é¡µé¢å±‚æ ¹å®¹å™¨*/
+/*Ò³Ãæ²ã¸ùÈİÆ÷*/
 .pageRoot {
 	width: 100%;
 	height: 100%;
 }
-	/*é¡µé¢å¤´éƒ¨*/
+	/*Ò³ÃæÍ·²¿*/
 	.header {
 		width: 100%;
 		height: 4%;
@@ -28,7 +28,7 @@ p {
 		border-bottom: 2 solid #B1B1B1; 
 		border-bottom-style: ridge;
 	}
-		/*é“¾æ¥çš„æ ·å¼*/
+		/*Á´½ÓµÄÑùÊ½*/
 		a:link,a:visited {
 			
 			font-size: 18px;
@@ -40,7 +40,7 @@ p {
 		}
 		a:hover{cursor:hand}
 
-		/*å¯¼èˆªèœå•*/
+		/*µ¼º½²Ëµ¥*/
 		.nav {margin: 0 auto;width: 40%;height: 4%; display: block;padding-top: 6px;}
 		.nav ul {dispaly: inline-block;list-style: none;margin: 2px;}
 		.nav li {dispaly: inline-block;float: left;margin-left: 20px;margin-right: 20px;}
