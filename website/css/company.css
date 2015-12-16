@@ -41,13 +41,18 @@ p {
 		a:hover{cursor:hand}
 
 		/*µ¼º½²Ëµ¥*/
-		.nav {margin: 0 auto;width: 40%;height: 4%; display: block;padding-top: 6px;}
+		.nav {margin: 0 auto;width: 46%;height: 4%; display: block;padding-top: 0.1%;}
 		.nav ul {dispaly: inline-block;list-style: none;margin: 2px;}
 		.nav li {dispaly: inline-block;float: left;margin-left: 20px;margin-right: 20px;}
 		.nav ul li a:hover{}
 
-		#active {
-			color: #666666;
+		.active_border {			
+			border-bottom: 3px solid #999999; 
+			padding-bottom: 4px;
+		}
+		#active_navigator{
+			color: #333333;
+			cursor: default;
 		}
 	.panel {
 		position: relative;

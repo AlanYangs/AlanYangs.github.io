@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 <title>公司主页</title>
 <link href="css/company.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="./scripts/company.js"></script>
+<script type="text/javascript" src="scripts/company.js"></script>
 
 </head>
 <body onload="">
@@ -13,19 +13,19 @@
 		<!--页面头部-->
 		<div class="header">
 			<span style="float:left;margin-left:10px; padding-top:6px;"><a href="#">Colouren</a></span>
-			<nav class="nav">
+			<nav id="navigator" class="nav">
 				<!--导航菜单-->
 				<ul>
 
-					<li><a href="#" onmouseover="this.style.color ='#666666'" onmouseout="this.style.color='#FFFFFF'">首页</a></li>
+					<li><div onclick="switchNavigator()"><a href="#" onmouseover="this.style.color ='#999999'" onmouseout="this.style.color='#FFFFFF'">首页</a></div></li>
 
-					<li><a href="#" id="active" onmouseover="this.style.color ='#666666'" onmouseout="this.style.color='#FFFFFF'">公司主页</a></li>
+					<li><div class="active_border"><a id="active_navigator" href="#" onmouseover="" onmouseout="">公司主页</a></div></li>
 
-					<li><a href="#" onmouseover="this.style.color ='#666666'" onmouseout="this.style.color='#FFFFFF'">简历箱</a></li>
+					<li><div ><a href="#" onmouseover="this.style.color ='#999999'" onmouseout="this.style.color='#FFFFFF'">简历箱</a></div></li>
 
-					<li><a href="#" onmouseover="this.style.color ='#666666'" onmouseout="this.style.color='#FFFFFF'">职位管理</a></li>
+					<li><div ><a href="#" onmouseover="this.style.color ='#999999'" onmouseout="this.style.color='#FFFFFF'">职位管理</a></div></li>
 
-					<li><a href="#" onmouseover="this.style.color ='#666666'" onmouseout="this.style.color='#FFFFFF'">COLOUR+</a></li>
+					<li><div ><a href="#" onmouseover="this.style.color ='#999999'" onmouseout="this.style.color='#FFFFFF'">COLOUR+</a></div></li>
 				</ul>
 			</nav>
 			<div style="position: absolute; right:1%; top:1%; float:right;">
